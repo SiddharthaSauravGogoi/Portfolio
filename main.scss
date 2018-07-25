@@ -22,7 +22,7 @@ body{
         ul{
             display: flex;
             justify-content: flex-end;
-            i{
+            li{
                 list-style: none;
                 padding: 4px 16px 4px 8px;
                 a{
@@ -36,17 +36,35 @@ body{
 }
 
 #welcome-section{
-    margin-top: 60px;
     padding: 16px;
     text-align: center;
-    height: 100vh;
+    height: 100%;
     h1{
-      
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
 }
+#about{
+    padding: 16px;
+    #about-wrap{
+        display: flex;
+    width: 100%;
+    #about-me{
+
+    }
+    #about-img{
+
+    }
+    }
+    
+}
+#skills{
+    background-color: gray;
+    height: 100%;
+}
 #projects{
-    background-color: #F5F5F5;
-    height:100vh;
+    background-color: black;
+    height: 100%;
 
 }
 #contact{

@@ -46,15 +46,35 @@ body {
 }
 
 #welcome-section {
-  margin-top: 60px;
   padding: 16px;
   text-align: center;
-  height: 100vh;
+  height: 100%;
+}
+
+#welcome-section h1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#about {
+  padding: 16px;
+}
+
+#about #about-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#skills {
+  background-color: gray;
+  height: 100%;
 }
 
 #projects {
-  background-color: #F5F5F5;
-  height: 100vh;
+  background-color: black;
+  height: 100%;
 }
 
 #contact {
